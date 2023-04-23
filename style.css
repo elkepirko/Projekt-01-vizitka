@@ -1,3 +1,74 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+
+body {
+    background-color: white;
+}
+h1, h2, h3 {
+    font-family: serif;
+}
+
+h1 {
+    color: black;
+} 
+
+a {
+    color: deeppink;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 13px;
+    font-family: Arial;
+    color:black
+}
+
+
+.sediva {
+    color: grey;
+    bottom: 50px;
+}
+
+.adopcia {
+    background-color: rgba(95, 88, 79, 0.103);
+}
+
+a:hover {
+    color: black
+}
+
+.fotky img {
+    width: 32%;
+}
+.omne img {
+    width: 22%;
+    border-radius: 50%;
+    float: right;
+}
+.uvod img {
+    width: 100%;
+}
+
+section {
+    padding: 20px 15%
+}
+
+.kontakt {
+    background-color: rgba(95, 88, 79, 0.103);
+}
+
+section {
+    overflow: auto;
+}
+
+.kontakt img {
+    width: 22%;
+    border-radius: 50%;
+    float: left;
+}
+
+.kontakt p{
+    float: left;
+}
